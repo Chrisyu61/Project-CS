@@ -25,15 +25,18 @@ Expected outcome
 
 
 Numerical method (max 100 words)
+
 Using the Erdoys Renyi method, we can simulate random interactions in a population and show how the disease spreads when the network is completely random. However, due to the randomness of this method, it has the limitation of assuming equally likely interactions for all nodes. We will also use the scale-free method to fill in this limitation. This method will have nodes with higher connections and some with lesser connections. This will represent scenarios where children go to school, or adults go to work and interact more with other people. 
 SIR- This method is a classical framework used to understand the dynamics of infectious diseases. This method categorizes the population into susceptible, infected, or recovered. We use this method to simulate the progression of the disease through these stages, and can be integrated with the Erdos-Renyi and Scale-Free networks to understand how chickenpox spreads. 
+
 SIR Model ODEs:
 dSdt = -SIN
 dIdt = SIN-I
 dRdt = I
 
 
-Provisioned tools (max 100 words): 
+Provisioned tools (max 100 words):
+
 Python
 Python Libraries:
 Matplotlib
