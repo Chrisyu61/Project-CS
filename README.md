@@ -10,14 +10,17 @@ Scientific question (max. 350 words)
 Spread of Varicella (chickenpox)
 Background of the problem  
 Varicella (Chickenpox) is a highly contagious disease caused by the Varicella-Zoster Virus (VZV), which belongs to the shingles family of viruses. Infected people are infected through airborne droplets or contact with a person with the shingles virus. In the present day, chickenpox still exists and is widespread throughout the world. This disease is most common among children, and we are interested in the network that the virus spreads and the factors that may affect the spreading of the disease. 
+
 Research problem
 To what extent do age and vaccine affect the number of infected people in different networks?
 1. The number of people infected with chickenpox in different age groups 
 2 To what extent does the vaccine help people not to have chickenpox 
 
+
 Expected outcome
 1. High rates of illness during childhood and infancy
 2. Vaccinated people are less likely to get sick
+
 
 Numerical method (max 100 words)
 Using the Erdoys Renyi method, we can simulate random interactions in a population and show how the disease spreads when the network is completely random. However, due to the randomness of this method, it has the limitation of assuming equally likely interactions for all nodes. We will also use the scale-free method to fill in this limitation. This method will have nodes with higher connections and some with lesser connections. This will represent scenarios where children go to school, or adults go to work and interact more with other people. 
@@ -26,6 +29,7 @@ SIR Model ODEs:
 dSdt = -SIN
 dIdt = SIN-I
 dRdt = I
+
 
 Provisioned tools (max 100 words): 
 Python
