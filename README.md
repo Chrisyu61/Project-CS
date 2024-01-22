@@ -12,12 +12,14 @@ Background of the problem
 Varicella (Chickenpox) is a highly contagious disease caused by the Varicella-Zoster Virus (VZV), which belongs to the shingles family of viruses. Infected people are infected through airborne droplets or contact with a person with the shingles virus. In the present day, chickenpox still exists and is widespread throughout the world. This disease is most common among children, and we are interested in the network that the virus spreads and the factors that may affect the spreading of the disease. 
 
 Research problem
+
 To what extent do age and vaccine affect the number of infected people in different networks?
 1. The number of people infected with chickenpox in different age groups 
 2 To what extent does the vaccine help people not to have chickenpox 
 
 
 Expected outcome
+
 1. High rates of illness during childhood and infancy
 2. Vaccinated people are less likely to get sick
 
