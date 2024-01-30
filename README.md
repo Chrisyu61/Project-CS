@@ -24,71 +24,26 @@ Expected outcome
 2. Vaccinated people are less likely to get sick
 
 
-Numerical method (max 100 words)
+Code:
+The file pcs11-3.ipynb is a jupyter notebook that contains all the codes for the simulations in the Erdos-Renyi, Scale-Free, Watts Strogatz, and ODE models. The results from these simulations are retained within the notebook to facilitate quick review and verification without the need for re-running the simulations. The structure of the code in the notebook is as follows: 
 
-Using the Erdoys Renyi method, we can simulate random interactions in a population and show how the disease spreads when the network is completely random. However, due to the randomness of this method, it has the limitation of assuming equally likely interactions for all nodes. We will also use the scale-free method to fill in this limitation. This method will have nodes with higher connections and some with lesser connections. This will represent scenarios where children go to school, or adults go to work and interact more with other people. 
-SIR- This method is a classical framework used to understand the dynamics of infectious diseases. This method categorizes the population into susceptible, infected, or recovered. We use this method to simulate the progression of the disease through these stages, and can be integrated with the Erdos-Renyi and Scale-Free networks to understand how chickenpox spreads. 
+Erdos-Renyi Networks: The code for these networks is located in cells 'In[4]' to 'In[11]'.
+Scale-Free Networks: The relevant code can be found in cells 'In[12]' to 'In[13]'.
+Watts-Strogatz Network: This network's code is in cells 'In[18]' and 'In[19]'.
 
-SIR Model ODEs:
-dSdt = -SIN
-dIdt = SIN-I
-dRdt = I
+The results of the non-vaccinated will always be the first to be presented, as it is considered as the control group of the experiment. Followed by the results of the vaccinated. A clear comparison is given in cells In[16] and In[17] together with the ODE approximations. 
 
+Necessary Imports
+To run the code in this notebook, the following libraries must be installed:
+import matplotlib.pyplot as plt
+import networkx as nx
+import numpy as np
 
-Provisioned tools (max 100 words):
-
-Python
-Python Libraries:
-Matplotlib
-Numpy
-Scipy
-Pandas	
-NetworkX
-Seaborn
-Scikit-learn
-Jupyter Notebook
-Github
-
-
-
-
-
-Plan for division of work (max 100 words):
-
-Task
-Person
-Project proposal
-All
-Project proposal peer review
-All
-Coding
-All
-Poster
-All
-Presentation
-All
-
-
-
-Timeline (max 100 words):
-<A short timeline plan from the start of the project till the end of the course. Keep it concise and realistic, no complicated GANT is necessary.>
-
-Due Task
-Task
-Jan 7 - 10
-Project Proposal
-Jan 10 - 12
-Project Proposal Peer Review
-Jan 12 - 22
-Code for model, simulation, and visualization
-Jan 23 - 28
-Write report
-Jan 29 - 31
-Create Poster and prepare the presentation
-Feb 1
-Presentation
-
-
+Installation Guide for Visual Studio Code Users
+If you are using Visual Studio Code, it's recommended to install the following packages before running the code:
+pip3 install networkx
+pip3 install numpy
+pip3 install matplotlib
 
 
 
