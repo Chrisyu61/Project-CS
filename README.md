@@ -28,24 +28,34 @@ Code:
 The file pcs11-3.ipynb is a jupyter notebook that contains all the codes for the simulations in the Erdos-Renyi, Scale-Free, Watts Strogatz, and ODE models. The results from these simulations are retained within the notebook to facilitate quick review and verification without the need for re-running the simulations. The structure of the code in the notebook is as follows: 
 
 Erdos-Renyi Networks: The code for these networks is located in cells 'In[4]' to 'In[11]'.
+
 Scale-Free Networks: The relevant code can be found in cells 'In[12]' to 'In[13]'.
+
 Watts-Strogatz Network: This network's code is in cells 'In[18]' and 'In[19]'.
 
 The results of the non-vaccinated will always be the first to be presented, as it is considered as the control group of the experiment. Followed by the results of the vaccinated. A clear comparison is given in cells In[16] and In[17] together with the ODE approximations. 
 
 Necessary Imports
+
 To run the code in this notebook, the following libraries must be installed:
+
 import matplotlib.pyplot as plt
+
 import networkx as nx
+
 import numpy as np
 
 Installation Guide for Visual Studio Code Users
+
 If you are using Visual Studio Code, it's recommended to install the following packages before running the code:
+
 pip3 install networkx
+
 pip3 install numpy
+
 pip3 install matplotlib
 
-
+A unit test is added by the end of the file that will check whether the functions are returning the correct number, length, and type. 
 
 
 
