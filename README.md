@@ -25,7 +25,7 @@ Expected outcome
 
 
 Code:
-The file pcs11-3.ipynb is a jupyter notebook that contains all the codes for the simulations in the Erdos-Renyi, Scale-Free, Watts Strogatz, and ODE models. The results from these simulations are retained within the notebook to facilitate quick review and verification without the need to re-run the simulations. The structure of the code in the notebook is as follows: 
+The file pcs11_3.ipynb is a jupyter notebook that contains all the codes for the simulations in the Erdos-Renyi, Scale-Free, Watts Strogatz, and ODE models. The results from these simulations are retained within the notebook to facilitate quick review and verification without the need to re-run the simulations. The structure of the code in the notebook is as follows: 
 
 Erdos-Renyi Networks: The code for these networks is located in cells 'In[4]' to 'In[11]'.
 
