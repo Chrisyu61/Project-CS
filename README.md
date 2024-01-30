@@ -45,7 +45,6 @@ import networkx as nx
 import numpy as np
 
 Installation Guide for Visual Studio Code Users. 
-
 If you are using Visual Studio Code, it's recommended to install the following packages before running the code:
 
 pip3 install networkx
